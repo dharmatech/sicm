@@ -4,11 +4,11 @@
  (sicm numerics-quadrature-rational)
 
  (export integrate-open
-  integrate-closed-closed-1
-  integrate-closed-open-1
-  integrate-open-closed-1
-  integrate-open-open
-  )
+         integrate-closed-closed-1
+         integrate-closed-open-1
+         integrate-open-closed-1
+         integrate-open-open
+         )
 
  (import (rnrs)
          (only (rnrs r5rs) quotient)
